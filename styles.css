@@ -52,7 +52,7 @@ body {
 
 #caption{
   position: relative;
-  margin-top: 480px;
+  margin-top: 460px;
   /* mix-blend-mode: ; */
   width: 40vw;
   margin-left: 30%;
@@ -205,7 +205,7 @@ a{
 }
 
 @media only screen and (max-width: 1000px){
-  [id="car-canvas"],#fire {
+  [id="car-canvas"],#fire, #grain, #logo {
     display: none
   }
 }
