@@ -1,0 +1,159 @@
+@font-face 
+{ 
+font-family: "Stilson";  
+src: url("Stilson Display.otf")format("otf"); 
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* width: 100vw;
+  height: 100vh; */
+  /* overflow: hidden; */
+  margin-bottom: 10vh;
+}
+
+#banner{
+  position: fixed;
+  width:100vw;
+  top: 0vh;
+  padding-top:2vh;
+  left:0;
+  z-index: 200;
+  display:flex;
+  justify-content: center;
+  background-color: white;
+
+}
+#banner>img{
+  width:17vw;;
+  height:auto;
+}
+
+#header{
+  font-family: 'Stilson', serif; 
+  font-weight: 500;
+  margin: 0 auto;
+  width: 40vw;
+  position: relative;
+  margin-top:13.5vh;
+  z-index: 120;
+}
+
+#caption{
+  position: relative;
+  margin-top: 59vh;
+  /* mix-blend-mode: ; */
+  width: 40vw;
+  margin-left: 30%;
+  z-index: 1;
+}
+
+h1{
+  font-size: 5vh;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+h2{
+  font-family: "franklin-gothic-atf", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.7vh;
+  margin-bottom: -1vh;
+  margin-top: -2vh;
+}
+
+h3{
+  font-family: "franklin-gothic-atf", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.25vh;
+  color: #AFAFAF;
+}
+
+canvas {
+  position: absolute;
+  cursor: none;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+
+#grain{
+  position:absolute;
+  top:332px;
+  width: 100vw;
+  height: 409px;
+  z-index:110;
+  mix-blend-mode: multiply;
+  background-image: url('grain.gif');
+  opacity: .5;
+  pointer-events: none;
+  cursor: none;
+}
+
+#logo{
+z-index:109;
+position:absolute;
+top:340px;
+left: 15px;
+pointer-events: none;
+cursor: none;
+}
+
+
+#logo > img {
+  height:auto;
+  width:425px;
+  pointer-events: none;
+  cursor: none;
+}
+
+[id="car-canvas"] {
+  position: absolute;
+  z-index:100;
+  top:330px;
+  padding:0%;
+  margin:0;
+  border: 1px solid rgba(255,100,0,1);
+  background: rgb(185,255,192);
+  background: linear-gradient(180deg, rgba(185,255,192,1) -29%, rgba(53,208,242,1) 0%, rgba(163,226,240,1) 67%, rgba(53,208,242,1) 100%); 
+
+}
+
+#text{
+  position: relative;
+  font-family: 'Georgia', serif;
+  font-weight: 100;
+  font-size: 1.75vh;
+  margin: 0 auto;
+  margin-top: 7vh;
+  /* mix-blend-mode: ; */
+  width: 40vw;
+  display: block;
+  justify-content: center;
+  line-height: 1.75;
+}
+
+#carimg{
+  width: 40vw;
+  margin: 0 auto;
+  border: 1px solid rgba(255,100,0,1);
+  box-shadow: 0px 0px 20px 0px rgba(255,100,0,1);
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(255,100,0,1);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(255,100,0,1);
+
+}
+
+figcaption{
+  margin-top:-1.5vh;
+}
