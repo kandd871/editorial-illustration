@@ -64,7 +64,7 @@ createCar(i) {
   };
 
   // Set a delay for every car to start moving, excluding the first car
-  const delay = i * 400 ;
+  const delay = i * 600 ;
   setTimeout(() => {
     if (i % 2 === 0) {
       car.x = this.getRandomNumber(600, 1350);
