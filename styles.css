@@ -200,7 +200,7 @@ a{
 }
 
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 600px){
 
   #header, #caption, #carimg, #text{
    width:90vw;
@@ -208,10 +208,23 @@ a{
   h1{
     font-size: 5.1vh;
   }
-}
 
-@media only screen and (max-width: 1000px){
-  [id="car-canvas"],#fire, #grain, #logo {
-    display: none
+  h2{
+    font-size: 2vh;
+  }
+  h3{
+  font-size: 1.35vh;
+  }
+
+  [id="car-canvas"] {
+    /* display: none; */
+  }
+
+  #fire, #grain, #logo{
+    /* display: none; */
+  }
+
+  body{
+    overflow-x: hidden;
   }
 }
