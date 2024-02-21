@@ -4,6 +4,7 @@ font-family: "Stilson";
 src: url("Stilson Display.otf")format("otf"); 
 }
 
+
 * {
   box-sizing: border-box;
 }
@@ -36,7 +37,7 @@ body {
 
 }
 #banner>img{
-  width:32vh;
+  width:26vh;
   height:auto;
 }
 
@@ -44,15 +45,20 @@ body {
   font-family: 'Stilson', serif; 
   font-weight: 500;
   margin: 0 auto;
-  width: 40vw;
+  width: 43vw;
   position: relative;
-  margin-top:100px;
+  margin-top:85px;
   z-index: 120;
+}
+
+#break{
+  font-family: 'Helvetica',sans-serif;
+  font-weight: 100;
 }
 
 #caption{
   position: relative;
-  margin-top: 460px;
+  margin-top: 470px;
   /* mix-blend-mode: ; */
   width: 40vw;
   margin-left: 30%;
