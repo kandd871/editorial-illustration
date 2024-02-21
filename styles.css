@@ -169,7 +169,7 @@ a{
   color:black;
 }
 
-@media only screen and (max-width: 1100px){
+@media screen and (max-width: 1100px){
 
   #header, #caption, #carimg, #text{
    width: 55vw;
@@ -180,7 +180,7 @@ a{
 }
 
 
-@media only screen and (max-width: 800px){
+@media screen and (max-width: 800px){
 
   #header, #caption, #carimg, #text{
    width:80vw;
@@ -200,31 +200,62 @@ a{
 }
 
 
-@media only screen and (max-width: 600px){
+@media screen and (max-width: 700px){
 
-  #header, #caption, #carimg, #text{
-   width:90vw;
+  *{
+    overflow: hidden;
+  }
+  #banner > img{
+    width:45vw;
+  }
+
+  body{
+    margin-top: -4vh;
+    width:100vw;
+    overflow-x: hidden;
+  }
+
+  #header, #caption, #carimg, #text, #banner{
+   width:82vw;
+   margin-left: 5vw;
   }
   h1{
-    font-size: 5.1vh;
+    font-size: 3.8vh;
   }
-
+  #author{
+    margin-top: .5vh;
+  }
   h2{
-    font-size: 2vh;
+    font-size: 1.7vh;
   }
   h3{
   font-size: 1.35vh;
+  margin-top:1vh;
+  }
+  #caption{
+    margin-top:52vh;
   }
 
+  figcaption{
+    line-height:1.25;
+  }
+
+  #carimg{
+    width:100%;
+    margin-left:0;
+  }
+  
   [id="car-canvas"] {
     /* display: none; */
   }
 
-  #fire, #grain, #logo{
-    /* display: none; */
+  [id="car-canvas"],  #grain, #logo{
+   transform: translateY(-4vh);
   }
-
-  body{
-    overflow-x: hidden;
+  #fire{
+    transform: translateY(48vh) scale(2.25);
+  }
+  #text{
+    margin-top:1vh;
   }
 }
