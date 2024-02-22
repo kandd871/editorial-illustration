@@ -67,7 +67,7 @@ createCar(i) {
   const delay = i * 600 ;
   setTimeout(() => {
     if (i % 2 === 0) {
-      car.x = this.getRandomNumber(600, 1350);
+      car.x = this.getRandomNumber(0, 1438);
       car.y = y;
       car.speed = this.getRandomNumber(5, 8) * -1; // Start moving with a random speed
 
@@ -75,7 +75,7 @@ createCar(i) {
       this.context.shadowColor = 'rgba(255, 100, 0, 1)';
       this.context.shadowBlur = 40;
     } else {
-      car.x = this.getRandomNumber(60, 1420);
+      car.x = this.getRandomNumber(0, 1438);
       car.y = y * 2.25;
       car.speed = this.getRandomNumber(5, 10);
     }
