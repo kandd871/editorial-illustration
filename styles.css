@@ -151,7 +151,7 @@ cursor: none;
   line-height: 1.75;
 }
 
-#carimg{
+#carimg, #carimg2{
   width: 40vw;
   margin: 0 auto;
   border: 1px solid rgba(255,100,0,1);
@@ -182,7 +182,7 @@ a{
 
 @media screen and (max-width: 800px){
 
-  #header, #caption, #carimg, #text{
+  #header, #caption, #carimg, #carimg2, #text{
    width:80vw;
   }
   h1{
@@ -240,7 +240,7 @@ a{
     line-height:1.25;
   }
 
-  #carimg{
+  #carimg, #carimg2{
     width:100%;
     margin-left:0;
   }
